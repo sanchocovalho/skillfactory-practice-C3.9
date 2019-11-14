@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  background-color: white;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+  color: #3914af;
+}
+
+.container {
+  width: 100%;
+  padding: 50px 0;
+  margin: 50px auto;
+  max-width: 900px;
+  background-color: #8f65fe;
+  font-size: 16px;
+  font-weight: bold;
+  color: #3914af;
+}
+ 
+.title {
+  font-weight: 100;
+  font-size: 44px;
+  margin: 20px 0px 20px;
+  -webkit-text-stroke: 1px black;
+}
+
+#localcity {
+  width: 80%;
+  height: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 10px 0px 10px;
+}
+
+.wrapper1 {
+  margin: 10px auto;
+  width: 80%;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.checkbox {
+  position: relative;
+  top: 4px;
+  right: 2px;
+  width: 15px;
+  height: 15px;
+}
+
+.wrapper2 {
+  margin: 20px auto 0;
+}
+
+button {
+  margin: 30px 10px 10px 10px;
+  padding: 8px 30px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #412c84;
+  background-color: #412c84;
+}
+
+.message{
+  color: #3914af;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 20px auto 0;
+}
